@@ -1,5 +1,7 @@
 # Написать два алгоритма нахождения i-го по счёту простого числа.
 
+import math
+
 # 1)
 
 def primes(n):
@@ -35,6 +37,6 @@ def primes(n):
       m -= set(range(2*i, n, i))
   return m
 
-print primes(10)
+print(primes(10))
 
 
