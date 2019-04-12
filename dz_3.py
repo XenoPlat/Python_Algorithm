@@ -110,7 +110,7 @@ print('№ элемента',index+1,'значение:',arr[index])
 
 print('массив:')
 import random
-
+import math
 n = 20
 a = [0]*n
 for i in range(n):
