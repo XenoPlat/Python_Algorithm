@@ -136,7 +136,7 @@ def sum_deq(a, b):
             summ.extendleft(deq[elem % 16])
             noise = elem // 16
     if noise > 0:
-        summ.extendleft(deq[spam])
+        summ.extendleft(deq[noise])
     a.reverse()
     b.reverse()
     return summ
